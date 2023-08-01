@@ -16,7 +16,13 @@
         echo '<br>';
 
     }
+    $personal_data =['id'=>1,'名前'=>'侍太郎','年齢'=>30];
+    foreach($personal_data as $key=>$value){
 
+        echo "{$key}：{$value}";
+        echo '<br>';
+
+    }
         ?>
     </p>
 
